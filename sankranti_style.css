@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url("powerstation.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+    height: 100vh;
+/* I KNOW IM AN ACTUAL IDIOT FOR *accidentally* CHOOSING FLEXBOX INSTEAD OF FLEX BUT IM NOT SPENDING ANOTHER BILLION YEARS SO DEAL WITH THIS */
+    display: flexbox;
+    place-items: center;
+}
+
+
+
+/* Headings */
+
+
+#dynamicshape {
+    color: #00A9A5;
+    text-shadow: 3px 3px 8px black;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+
+    position: relative;
+    bottom: 10%;
+    width: 1500px;
+    height: 140px;  
+    background-color: #092327;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#header {
+    font-family: Montserrat;
+    font-weight:300;
+    text-align: center;
+    padding-top: 170;
+    color:#ffffff;
+    filter:drop-shadow(3px 3px 8px black);
+    position:relative;
+    top: 425px;
+    width: 900px;
+    height: 250px;  
+    background-color: #092327;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#headingintro {
+    color: #00b6b0;
+    padding: 20px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 600;
+} 
+
+#heading {
+    color: #0B5351;
+    padding: 20px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.heading2 {
+    color:#00A9A5;
+    padding: 20px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#heading3 {
+    font-family: Montserrat;
+    padding-top: 40px;
+    font-size: 45;
+    font-weight: 700;
+    text-align: center;
+}
+
+#heading4 {
+    position: relative;
+    bottom: 1300px;
+    color:#ffffff;
+    padding: 20px;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+/* Content panels (way too tired to make variables for margin, width, and height + its gonna break somehow even if I do it perfectly anyway) */
+
+#squarenotnt {
+    position: relative;
+    top: 2025px;
+    width: 1050px;
+    height: 200px;  
+    background-color: #092327;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px #092327
+}
+
+.square {
+    position: relative;
+    right: 21%;
+    bottom: 650px;
+    width: 850px;
+    height: 300px;  
+    background-color: #00c3c0;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px #092327
+}
+
+
+.intro {
+    position: relative;
+    left: 21%;
+    bottom: 750px;
+    width: 850px;
+    height: 300px;  
+    background-color: #80fffd;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px #092327
+}
+
+#square2 {
+    position: relative;
+    bottom: 600px;
+    width: 1850px;
+    height: 300px;  
+    background-color: #092327;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px #092327
+}
+
+.square3 {
+    position: relative;
+    left: 21%;
+    bottom: 650px;
+    width: 850px;
+    height: 300px;  
+    background-color: #00c3c0;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px #092327;
+    filter: drop-shadow(5px 5px 8px black);
+}
+
+.square4 {
+    position: relative;
+    right: 15%;
+    padding: 10px 30px;
+    bottom: 900px;
+    width: 1050px;
+    height: 200px;  
+    background-color: #092327;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px #092327
+}
+
+.line {
+    position: relative;
+    top: 20px;
+    background-color: #051618;
+    width: 1000px;
+    height: 4px;  
+}
+
+#square5 {
+    position: relative;
+    bottom: 1200px;
+    width: 3000px;
+    height: 750px;  
+    background-color: #e2c800;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px #092327;
+    filter: drop-shadow(5px 5px 8px black);
+}
+
+#conclusion {
+    position: relative;
+    bottom: 1100px;
+    width: 1850px;
+    height: 300px;  
+    background-color: #092327;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px #092327
+}
+
+.backgroundd {
+    position: relative;
+    top: 3500;
+    width: 10000;
+    height: 4250;  
+
+    background-color: #000000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px black;
+}
+
+li {
+    font-size: 23;
+}
+
+.incooo {
+    font-size: 26;
+}
+
+.content {
+    padding: 5px 30px;
+    font-family: Montserrat;
+    color: #092327;
+    list-style-type: none;
+}
+
+.content2 {
+    padding: 5px 30px;
+    font-family: Montserrat;
+    font-size: 25;
+    color: #90C2E7;
+}
+
+.content3 {
+    padding: 5px 30px;
+    font-family: 'Caveat';
+    font-size: 35;
+    padding-left: 1000px;
+    padding-right: 600px;
+}
+
+.contentintro {
+    padding: 20px 20px;
+    font-family: Montserrat;
+    color: #251770;
+    font-size: 25px;
+}
+
+.content4 {
+    position: relative;
+    padding: 20px 20px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 28px;
+    bottom: 1300px;
+}
+
+
+/* images */
+
+#imgg {
+    position:relative;
+    left: 20%;
+    bottom: 400px;
+}
+
+#imggg {
+    position: relative;
+    width: 670px;
+    height: 500px;
+    bottom: 950px;
+    right: 400px;
+}
+
+#imgggg {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    bottom: 950px;
+    right: 700px;
+}
+
+#imggggg {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    bottom: 1250px;
+    left: 700px;
+}
+
+#imgggggg {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    bottom: 1150px;
+    left: 600px;
+}
+
+/* Footer */
+
+.container{
+	width: 1910px;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer {
+    position: relative;
+	background-color: #233D4D;
+	padding: 100px 100px;
+    bottom: 1000px;
+}
+
+.footer-col {
+	font-family: SUSE;
+	width: 25%;
+	padding: 0 100px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #FE7F2D;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #fff;
+	padding-left: 10px;
+}
